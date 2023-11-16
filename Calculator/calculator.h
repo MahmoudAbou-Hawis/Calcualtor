@@ -1,7 +1,7 @@
 #ifndef CALCULATOR_H_
 #define CACULATOR_H_
 
-int mod(int num , int md);
+signed float sub(float num1 , float num2);
 
 
 #endif

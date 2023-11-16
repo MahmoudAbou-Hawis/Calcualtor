@@ -1,6 +1,6 @@
 #include "calculator.h"
 
-int mod(int num ,int  md)
+signed float sub(float num1 , float num2)
 {
-    return ((num%md)+mod)%mod;
+    return (num1-num2);
 }
