@@ -2,7 +2,7 @@
 
 float sub(float num1 , float num2)
 {
-    return (num1-num2);
+return (num1-num2);
 }
 
 int mod(int num ,int md)
@@ -17,4 +17,9 @@ float div(int num1 , int num2)
 		result = (float)num1 / num2;
 	}
     return result;
+}
+
+float add(float num1,float num2)
+{
+	return num1+num2;
 }
