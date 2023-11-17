@@ -1,5 +1,12 @@
 #include "calculator.h"
 
+int mod(int num ,int  md)
+{
+
+    return ((num%md)+md)%md;
+
+}
+
 float div(int num1 , int num2)
 {
 	float result = 0;
@@ -8,3 +15,4 @@ float div(int num1 , int num2)
 	}
     return result;
 }
+
