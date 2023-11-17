@@ -8,9 +8,3 @@ float div(int num1 , int num2)
 	}
     return result;
 }
-
-int main () {
-	int x = 10, y = 5;
-	printf("%f\n",div(x,y));
-	return 0;
-}
